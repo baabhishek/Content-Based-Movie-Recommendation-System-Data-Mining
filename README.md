@@ -21,6 +21,17 @@ Performed detailed **EDA using ydata_profiling** and created an interactive reco
 - Designed for **instant movie recommendations** without relying on user history.
 
 ---
+## Tech. Used
+
+| TYpes | Libraries |
+|-----------|----------------|
+| Programming | Python |
+| Data Manipulation | Pandas, NumPy |
+| EDA | ydata_profiling |
+| Machine Learning | Scikit-learn (CountVectorizer, cosine_similarity) |
+| Environment | Jupyter Notebook |
+
+---
 ## About Dataset:
 
 ### `movies`
@@ -47,6 +58,7 @@ Contains cast and crew details for each movie: Backend details
 Both datasets are merged using the **`title`** column to form a single combined dataset for model building.
 And extensive ***cleaning and preprocessing***.
 
+---
 ---
 
 ## Workflow
@@ -81,18 +93,7 @@ And extensive ***cleaning and preprocessing***.
        for i in distance[1:6]:
            print(new.iloc[i[0]].title)
 ```
----
-## Technologies Used
 
-| TYpes | Libraries |
-|-----------|----------------|
-| Programming | Python |
-| Data Manipulation | Pandas, NumPy |
-| EDA | ydata_profiling |
-| Machine Learning | Scikit-learn (CountVectorizer, cosine_similarity) |
-| Environment | Jupyter Notebook |
-
----
 ## Conclusion
 
 This project demonstrates how **textual metadata** can be transformed into meaningful vectors to recommend movies.  
