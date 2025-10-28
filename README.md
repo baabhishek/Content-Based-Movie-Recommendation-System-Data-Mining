@@ -1,4 +1,4 @@
-# 🎬 Content-Based Movie Recommendation System (Data Mining)
+# Content-Based Movie Recommendation System (Data Mining)
 
 ---
 
